@@ -5,7 +5,8 @@ import {TEXT} from "./text";
 function createDoc() {
     const docPath = path.resolve().concat('/docs/API.md');
     const dirPath = path.dirname(docPath);
-
+    console.log(path.resolve());
+    console.log(TEXT);
     if (fs.existsSync(dirPath)) {
         fs.writeFileSync(docPath, TEXT);
         return;
