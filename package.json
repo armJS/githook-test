@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run generate-doc&&git add src/docs/API.md&&git commit -m 'updated doc' src/docs/API.md"
+      "pre-push": "npm run generate-doc && git add src/docs/API.md && git commit -m 'updated doc' src/docs/API.md"
     }
   }
 }
