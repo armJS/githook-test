@@ -1,1 +1,1 @@
-export const TEXT = 'Text v2';
+export const TEXT = 'Text v3';
