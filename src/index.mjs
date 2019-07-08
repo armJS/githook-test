@@ -3,7 +3,7 @@ import fs from 'fs';
 import {TEXT} from "./text";
 
 function createDoc() {
-    const docPath = path.resolve().concat('/docs/API.md');
+    const docPath = path.resolve().concat('src/docs/API.md');
     const dirPath = path.dirname(docPath);
     console.log(path.resolve());
     console.log(TEXT);
